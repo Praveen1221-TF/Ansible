@@ -3,8 +3,8 @@
   connection: local
   vars_prompt:
   - name: username
-      prompt: what is our name?
-      private: false
+    prompt: what is our name?
+    private: false
   tasks:
   - name: print creds
     ansible.builtin.debug:
