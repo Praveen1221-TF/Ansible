@@ -11,4 +11,4 @@
   - name: print creds
     ansible.builtin.debug:
       msg: "Hello, Username is: {{ username }},Hello, password is: {{ password }}"
-      msg: ""
+  
