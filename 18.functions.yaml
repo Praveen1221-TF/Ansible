@@ -12,3 +12,7 @@
   - name: convert string to list
     ansible.builtin.debug:
       msg: "Techs are: {{ technologies | split(',') }}"
+
+  - name: convert map to list
+    ansible.builtin.debug:
+      msg: "tags are: {{ tags | dict2items }}"
