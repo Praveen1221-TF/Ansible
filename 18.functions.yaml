@@ -1,6 +1,7 @@
 - name: function
   hosts: local
   connection: local
+  become: yes 
   vars:
     technologies: Devops, Linux, Shell, Ansible
   tasks:
